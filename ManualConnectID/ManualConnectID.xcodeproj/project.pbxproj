@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C12A239220187944000121C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12A239120187944000121C5 /* AppDelegate.swift */; };
+		C12A239420187944000121C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12A239320187944000121C5 /* ViewController.swift */; };
+		C12A239720187944000121C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12A239520187944000121C5 /* Main.storyboard */; };
+		C12A239920187944000121C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C12A239820187944000121C5 /* Assets.xcassets */; };
+		C12A239C20187944000121C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12A239A20187944000121C5 /* LaunchScreen.storyboard */; };
+		C12A23B020187AEA000121C5 /* TDConnectIosSdk.framework in Copy Framework */ = {isa = PBXBuildFile; fileRef = C12A23A920187AB7000121C5 /* TDConnectIosSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C12A23A820187AB7000121C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C12A23A320187AB6000121C5 /* TDConnectIosSdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4833046219AF1635002F8DA9;
+			remoteInfo = TDConnectIosSdk;
+		};
+		C12A23AA20187AB7000121C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C12A23A320187AB6000121C5 /* TDConnectIosSdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4833046D19AF1635002F8DA9;
+			remoteInfo = TDConnectIosSdkTests;
+		};
+		C12A23AC20187AD1000121C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C12A23A320187AB6000121C5 /* TDConnectIosSdk.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4833046119AF1635002F8DA9;
+			remoteInfo = TDConnectIosSdk;
+		};
+		C139113520187B9F009F1314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C139112D20187B9F009F1314 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C10F031BB57D86DE0E9ECE9A71A7DDFB;
+			remoteInfo = AeroGearHttp;
+		};
+		C139113720187B9F009F1314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C139112D20187B9F009F1314 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D666924CE80B949F75FEC356FFF2F31;
+			remoteInfo = JSONWebToken;
+		};
+		C139113920187B9F009F1314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C139112D20187B9F009F1314 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 636F7BAF4EBA4F365A1A9564EA629037;
+			remoteInfo = OHHTTPStubs;
+		};
+		C139113B20187B9F009F1314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C139112D20187B9F009F1314 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D413469D35E516B800194BEDD6E93448;
+			remoteInfo = "Pods-TDConnectIosSdk";
+		};
+		C139113D20187B9F009F1314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C139112D20187B9F009F1314 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2560D1D0DDE95AC9DC69B257F4F3390D;
+			remoteInfo = "Pods-TDConnectIosSdkTests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C12A23AE20187AD6000121C5 /* Copy Framework */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C12A23B020187AEA000121C5 /* TDConnectIosSdk.framework in Copy Framework */,
+			);
+			name = "Copy Framework";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C12A238E20187944000121C5 /* ManualConnectID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManualConnectID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12A239120187944000121C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C12A239320187944000121C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C12A239620187944000121C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C12A239820187944000121C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C12A239B20187944000121C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C12A239D20187944000121C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C12A23A320187AB6000121C5 /* TDConnectIosSdk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TDConnectIosSdk.xcodeproj; path = "connect-ios-sdk/TDConnectIosSdk.xcodeproj"; sourceTree = "<group>"; };
+		C139112D20187B9F009F1314 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = "connect-ios-sdk/Pods/Pods.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C12A238B20187944000121C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C12A238520187944000121C5 = {
+			isa = PBXGroup;
+			children = (
+				C139112D20187B9F009F1314 /* Pods.xcodeproj */,
+				C12A23A320187AB6000121C5 /* TDConnectIosSdk.xcodeproj */,
+				C12A239020187944000121C5 /* ManualConnectID */,
+				C12A238F20187944000121C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C12A238F20187944000121C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C12A238E20187944000121C5 /* ManualConnectID.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C12A239020187944000121C5 /* ManualConnectID */ = {
+			isa = PBXGroup;
+			children = (
+				C12A239120187944000121C5 /* AppDelegate.swift */,
+				C12A239320187944000121C5 /* ViewController.swift */,
+				C12A239520187944000121C5 /* Main.storyboard */,
+				C12A239820187944000121C5 /* Assets.xcassets */,
+				C12A239A20187944000121C5 /* LaunchScreen.storyboard */,
+				C12A239D20187944000121C5 /* Info.plist */,
+			);
+			path = ManualConnectID;
+			sourceTree = "<group>";
+		};
+		C12A23A420187AB6000121C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C12A23A920187AB7000121C5 /* TDConnectIosSdk.framework */,
+				C12A23AB20187AB7000121C5 /* TDConnectIosSdkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C139112E20187B9F009F1314 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C139113620187B9F009F1314 /* AeroGearHttp.framework */,
+				C139113820187B9F009F1314 /* JWT.framework */,
+				C139113A20187B9F009F1314 /* OHHTTPStubs.framework */,
+				C139113C20187B9F009F1314 /* Pods_TDConnectIosSdk.framework */,
+				C139113E20187B9F009F1314 /* Pods_TDConnectIosSdkTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C12A238D20187944000121C5 /* ManualConnectID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C12A23A020187944000121C5 /* Build configuration list for PBXNativeTarget "ManualConnectID" */;
+			buildPhases = (
+				C12A238A20187944000121C5 /* Sources */,
+				C12A238B20187944000121C5 /* Frameworks */,
+				C12A238C20187944000121C5 /* Resources */,
+				C12A23AE20187AD6000121C5 /* Copy Framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C12A23AD20187AD1000121C5 /* PBXTargetDependency */,
+			);
+			name = ManualConnectID;
+			productName = ManualConnectID;
+			productReference = C12A238E20187944000121C5 /* ManualConnectID.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C12A238620187944000121C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Bandhavi Vinay";
+				TargetAttributes = {
+					C12A238D20187944000121C5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C12A238920187944000121C5 /* Build configuration list for PBXProject "ManualConnectID" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C12A238520187944000121C5;
+			productRefGroup = C12A238F20187944000121C5 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C139112E20187B9F009F1314 /* Products */;
+					ProjectRef = C139112D20187B9F009F1314 /* Pods.xcodeproj */;
+				},
+				{
+					ProductGroup = C12A23A420187AB6000121C5 /* Products */;
+					ProjectRef = C12A23A320187AB6000121C5 /* TDConnectIosSdk.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C12A238D20187944000121C5 /* ManualConnectID */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C12A23A920187AB7000121C5 /* TDConnectIosSdk.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TDConnectIosSdk.framework;
+			remoteRef = C12A23A820187AB7000121C5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C12A23AB20187AB7000121C5 /* TDConnectIosSdkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TDConnectIosSdkTests.xctest;
+			remoteRef = C12A23AA20187AB7000121C5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C139113620187B9F009F1314 /* AeroGearHttp.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AeroGearHttp.framework;
+			remoteRef = C139113520187B9F009F1314 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C139113820187B9F009F1314 /* JWT.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JWT.framework;
+			remoteRef = C139113720187B9F009F1314 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C139113A20187B9F009F1314 /* OHHTTPStubs.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OHHTTPStubs.framework;
+			remoteRef = C139113920187B9F009F1314 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C139113C20187B9F009F1314 /* Pods_TDConnectIosSdk.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_TDConnectIosSdk.framework;
+			remoteRef = C139113B20187B9F009F1314 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C139113E20187B9F009F1314 /* Pods_TDConnectIosSdkTests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_TDConnectIosSdkTests.framework;
+			remoteRef = C139113D20187B9F009F1314 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C12A238C20187944000121C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12A239C20187944000121C5 /* LaunchScreen.storyboard in Resources */,
+				C12A239920187944000121C5 /* Assets.xcassets in Resources */,
+				C12A239720187944000121C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C12A238A20187944000121C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12A239420187944000121C5 /* ViewController.swift in Sources */,
+				C12A239220187944000121C5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C12A23AD20187AD1000121C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TDConnectIosSdk;
+			targetProxy = C12A23AC20187AD1000121C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C12A239520187944000121C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C12A239620187944000121C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C12A239A20187944000121C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C12A239B20187944000121C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C12A239E20187944000121C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C12A239F20187944000121C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C12A23A120187944000121C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B3368LWWSL;
+				INFOPLIST_FILE = ManualConnectID/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.telenor.connectid.ManualConnectID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C12A23A220187944000121C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B3368LWWSL;
+				INFOPLIST_FILE = ManualConnectID/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.telenor.connectid.ManualConnectID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C12A238920187944000121C5 /* Build configuration list for PBXProject "ManualConnectID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12A239E20187944000121C5 /* Debug */,
+				C12A239F20187944000121C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C12A23A020187944000121C5 /* Build configuration list for PBXNativeTarget "ManualConnectID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12A23A120187944000121C5 /* Debug */,
+				C12A23A220187944000121C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C12A238620187944000121C5 /* Project object */;
+}

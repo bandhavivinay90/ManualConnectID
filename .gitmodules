@@ -1,0 +1,3 @@
+[submodule "ManualConnectID/connect-ios-sdk"]
+	path = ManualConnectID/connect-ios-sdk
+	url = https://github.com/telenordigital/connect-ios-sdk.git
